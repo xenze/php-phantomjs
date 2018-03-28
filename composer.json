@@ -1,10 +1,15 @@
 {
-    "name": "jonnyw/php-phantomjs",
+    "name": "xenze/php-phantomjs",
     "description": "A PHP wrapper for loading pages through PhantomJS",
+    "homepage": "https://github.com/xenze/php-phantomjs",
     "keywords": ["PhantomJS", "Testing", "Headless Browser"],
 	"type": "library",
     "license": "MIT",
     "authors": [
+        {
+            "name": "xenze",
+            "email": "xenze@gmx.de"
+        },
         {
             "name": "Jonny Wenmoth",
             "email": "contact@jonnyw.me",
@@ -19,7 +24,7 @@
         "symfony/filesystem": "~2.3|~3.0",
         "symfony/yaml": "~2.3|~3.0",
         "twig/twig": "~1.16",
-        "jakoch/phantomjs-installer": "2.1.1-p08"
+        "jakoch/phantomjs-installer": "2.1.1-p09"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
